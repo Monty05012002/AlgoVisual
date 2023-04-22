@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div>  
+        <h1>Trie :</h1>
+        <p> Trie is a type of k-ary search tree used for storing and searching a specific key from a set. 
+            Using Trie, search complexities can be brought to optimal limit (key length). 
+        </p> 
+   </div>
+   <br>
+   <div>
+       <h2>Advantages of Trie:</h2>
+       <p>
+        Trie allows us to input and finds strings in O(l) time, where l is the length of a single word. 
+        It is faster as compared to both hash tables and binary search trees.
+       </p>
+       <p>
+        It provides alphabetical filtering of entries by the key of the node and hence makes it easier to print all words in alphabetical order.
+       </p>
+   </div>
+   <br>
+   <div>
+       <h2>Disadvantages of Trie</h2>
+       <p>
+        The main disadvantage of the trie is that it takes a lot of memory to store all the strings. 
+        For each node, we have too many node pointers which are equal to the no of characters in the worst case.
+       </p>
+       <p>
+        An efficiently constructed hash table(i.e. a good hash function and a reasonable load factor) 
+        has O(1) as lookup time which is way faster than O(l) in the case of a trie, 
+        where l is the length of the string.
+       </p>
+   </div>
+   <br>
+   <div>
+       <h2>
+           Time Complexity :
+       </h2>
+       <ul>
+           <li>
+               Searching: O(N)
+           </li>
+           <li>
+               Insertion: O(N)
+           </li>
+           <li>
+               Deletion: O(N)
+           </li>
+       </ul>
+   </div>
+   <br>
+   <div>
+       <h2>
+           Space Complexity :
+       </h2>
+       <ul>
+           <li>
+               Searching: O(1)
+           </li>
+           <li>
+               Insertion: O(N)
+           </li>
+           <li>
+               Deletion: O(1)
+           </li>
+       </ul>
+   </div>
+
+      
+    
+</body>
+</html>

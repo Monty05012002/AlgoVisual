@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div>  
+         <h1>Binary search tree :</h1>
+         <p>A binary search tree follows some order to arrange the elements like the value of left node must be smaller than the parent node,
+            and the value of right node must be greater than the parent node. 
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>Advantages of Binary search tree :</h2>
+        <p>
+            Searching an element in the Binary search tree is easy as we always have a hint that which subtree has the desired element.
+        </p>
+        <p>
+            As compared to array and linked lists, insertion and deletion operations are faster in BST
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>Disadvantages of Binary search tree :</h2>
+        <p>
+            The complexity of a BST might rise if it becomes unbalanced or degenerates.
+        </p>
+        <p>
+            Disable several operations that can be performed on ordered data structures.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>
+            Time Complexity:
+        </h2>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/skewl2.png" alt="binary search tree">
+        <ul>
+            <li>
+                Searching: For searching element 1, we have to traverse all elements (in order 3, 2, 1). Therefore, searching in binary search tree has worst case complexity of O(n). 
+                In general, the time complexity is O(h) where h is the height of BST.
+            </li>
+            <li>
+                Insertion: For inserting element 0, it must be inserted as the left child of 1. Therefore, we need to traverse all elements (in order 3, 2, 1) to insert 0 which has the worst-case complexity of O(n). 
+                In general, the time complexity is O(h).
+            </li>
+            <li>
+                Deletion: For deletion of element 1, we have to traverse all elements to find 1 (in order 3, 2, 1). Therefore, deletion in binary tree has worst case complexity of O(n). 
+                In general, the time complexity is O(h).
+            </li>
+        </ul>
+    </div>
+        
+</body>
+</html>
