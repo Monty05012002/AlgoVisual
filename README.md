@@ -29,42 +29,6 @@ Author : [Ankit Mohanty](ankit05mohanty.jsr@gmail.com)
 - Now go and play with it
 
 
-
-## 📸 Screenshots :
-<table>
-    <tr>
-        <td colspan="2">
-            <img src="asets"></img>
-            <br />
-            <h3 align="center">Home Page</h3>
-        </td>
-    </tr>
-    <tr>
-        <td width="50%">
-            <img src="assets/trie.jpg"></img>
-            <br />
-            <p align="center">Trie </p>
-        </td>
-        <td width="50%">
-            <img src="https://github.com/Monty05012002/Algorithm-Visualizer/blob/main/assets/preview2.jpg"></img>
-            <br />
-            <p align="center">Binary Search Tree</p>
-        </td>
-    </tr>
-    <tr>
-        <td width="50%">
-            <img src="https://github.com/Monty05012002/Algorithm-Visualizer/blob/main/assets/path-preview.jpg"></img>
-            <br />
-            <p align="center">Path Finding</p></td>
-        <td width="50%">
-            <img src="https://github.com/Monty05012002/Algorithm-Visualizer/blob/main/assets/sorting-preview.jpg"></img>
-            <br />
-            <p align="center">Sorting</p>
-        </td>
-    </tr>
-</table>
-
-
 ## ⏳ Future Improvements :
 
 - [ ] Add more and more algorithms and data structures 
